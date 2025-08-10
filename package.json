@@ -5,7 +5,7 @@
   "description": "Indiana Grey website converted to Gatsby",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve -H 0.0.0.0"
   },
   "dependencies": {

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { withPrefix } from 'gatsby';
 
 function generatePrice(category) {
   const priceRanges = {
@@ -67,7 +68,7 @@ export function useProducts() {
     async function load() {
       try {
         setLoading(true);
-        const res = await fetch('/product_catalog.json');
+        const res = await fetch(withPrefix('/product_catalog.json'));
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
         const transformed = {};
@@ -80,7 +81,7 @@ export function useProducts() {
             material: getMaterialForCategory(category.product_name),
             colors: getColorsForCategory(category.product_name),
             features: getFeaturesForCategory(category.product_name),
-            image: product.image,
+            image: withPrefix(product.image),
             description: generateDescription(product.name, category.product_label),
             category: categoryKey,
             categoryLabel: category.product_label

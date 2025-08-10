@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/indianagrey-website',
   siteMetadata: {
     title: 'Indiana Grey - Manufacturer & Exporter of Premium Leather Goods',
     description:

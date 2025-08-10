@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-content">
           <div className="nav-brand">
-            <img src="/logo.png" alt="Indiana Grey Logo" className="nav-logo" />
+            <img src={require('gatsby').withPrefix('/logo.png')} alt="Indiana Grey Logo" className="nav-logo" />
             <div className="nav-brand-text">
               <h1 className="brand-title">Indiana Grey</h1>
               <p className="brand-tagline">Manufacturer and Exporter of Finished Leather, Shoe, Shoe Upper and Goods</p>

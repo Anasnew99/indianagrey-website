@@ -39,7 +39,7 @@ const ProductsSection = ({
         <div className="products-grid" id="all-products">
           {products.map((product) => (
             <div key={product.id} className="product-card" data-product-id={product.id} style={{ cursor: 'pointer' }} onClick={() => onOpen(product)}>
-              <img src={product.image} alt={product.name} className="product-image" />
+              <img src={require('gatsby').withPrefix(product.image)} alt={product.name} className="product-image" />
               <div className="product-info">
                 <h3 className="product-name">{product.name}</h3>
               </div>

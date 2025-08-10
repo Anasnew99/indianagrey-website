@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content-wrapper">
           <div className="hero-image-container">
-            <img src="/assets/hero.jpeg" alt="Leather manufacturing" className="hero-image" />
+            <img src={require('gatsby').withPrefix('/assets/hero.jpeg')} alt="Leather manufacturing" className="hero-image" />
             <div className="hero-overlay"></div>
           </div>
           <div className="hero-content">
