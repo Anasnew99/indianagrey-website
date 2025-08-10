@@ -1,0 +1,409 @@
+[
+  {
+    "folder": "bags",
+    "product_name": "bags",
+    "product_label": "Bags",
+    "products": [
+      {
+        "name": "Bags Style 1",
+        "image": "/assets/bags/1.jpg"
+      },
+      {
+        "name": "Bags Style 2",
+        "image": "/assets/bags/2.jpg"
+      },
+      {
+        "name": "Bags Style 3",
+        "image": "/assets/bags/3.jpg"
+      },
+      {
+        "name": "Bags Style 4",
+        "image": "/assets/bags/4.jpg"
+      },
+      {
+        "name": "Bags Style 5",
+        "image": "/assets/bags/5.jpg"
+      },
+      {
+        "name": "Bags Style 6",
+        "image": "/assets/bags/6.jpg"
+      },
+      {
+        "name": "Bags Style 7",
+        "image": "/assets/bags/7.jpg"
+      },
+      {
+        "name": "Bags Style 8",
+        "image": "/assets/bags/8.jpg"
+      },
+      {
+        "name": "Bags Style 9",
+        "image": "/assets/bags/9.jpg"
+      },
+      {
+        "name": "Bags Style 10",
+        "image": "/assets/bags/10.jpg"
+      },
+      {
+        "name": "Bags Style 11",
+        "image": "/assets/bags/11.jpg"
+      },
+      {
+        "name": "Bags Style 12",
+        "image": "/assets/bags/12.jpg"
+      },
+      {
+        "name": "Bags Style 13",
+        "image": "/assets/bags/13.jpg"
+      },
+      {
+        "name": "Bags Style 14",
+        "image": "/assets/bags/14.jpg"
+      },
+      {
+        "name": "Bags Style 15",
+        "image": "/assets/bags/15.jpg"
+      }
+    ]
+  },
+  {
+    "folder": "braided-sandals",
+    "product_name": "braided-sandals",
+    "product_label": "Braided Sandals",
+    "products": [
+      {
+        "name": "Braided Sandals Style 1",
+        "image": "/assets/braided-sandals/1.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 2",
+        "image": "/assets/braided-sandals/2.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 3",
+        "image": "/assets/braided-sandals/3.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 4",
+        "image": "/assets/braided-sandals/4.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 5",
+        "image": "/assets/braided-sandals/5.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 6",
+        "image": "/assets/braided-sandals/6.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 7",
+        "image": "/assets/braided-sandals/7.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 8",
+        "image": "/assets/braided-sandals/8.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 9",
+        "image": "/assets/braided-sandals/9.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 10",
+        "image": "/assets/braided-sandals/10.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 11",
+        "image": "/assets/braided-sandals/11.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 12",
+        "image": "/assets/braided-sandals/12.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 13",
+        "image": "/assets/braided-sandals/13.jpg"
+      },
+      {
+        "name": "Braided Sandals Style 14",
+        "image": "/assets/braided-sandals/14.jpg"
+      }
+    ]
+  },
+  {
+    "folder": "leather-belts",
+    "product_name": "leather-belts",
+    "product_label": "Leather Belts",
+    "products": [
+      {
+        "name": "Leather Belts Style 1",
+        "image": "/assets/leather-belts/1.jpg"
+      },
+      {
+        "name": "Leather Belts Style 2",
+        "image": "/assets/leather-belts/2.jpg"
+      },
+      {
+        "name": "Leather Belts Style 3",
+        "image": "/assets/leather-belts/3.jpg"
+      },
+      {
+        "name": "Leather Belts Style 4",
+        "image": "/assets/leather-belts/4.jpg"
+      },
+      {
+        "name": "Leather Belts Style 5",
+        "image": "/assets/leather-belts/5.jpg"
+      },
+      {
+        "name": "Leather Belts Style 6",
+        "image": "/assets/leather-belts/6.jpg"
+      },
+      {
+        "name": "Leather Belts Style 7",
+        "image": "/assets/leather-belts/7.jpg"
+      },
+      {
+        "name": "Leather Belts Style 8",
+        "image": "/assets/leather-belts/8.jpg"
+      },
+      {
+        "name": "Leather Belts Style 9",
+        "image": "/assets/leather-belts/9.jpg"
+      },
+      {
+        "name": "Leather Belts Style 10",
+        "image": "/assets/leather-belts/10.jpg"
+      },
+      {
+        "name": "Leather Belts Style 11",
+        "image": "/assets/leather-belts/11.jpg"
+      },
+      {
+        "name": "Leather Belts Style 12",
+        "image": "/assets/leather-belts/12.jpg"
+      },
+      {
+        "name": "Leather Belts Style 13",
+        "image": "/assets/leather-belts/13.jpg"
+      },
+      {
+        "name": "Leather Belts Style 14",
+        "image": "/assets/leather-belts/14.jpg"
+      },
+      {
+        "name": "Leather Belts Style 15",
+        "image": "/assets/leather-belts/15.jpg"
+      },
+      {
+        "name": "Leather Belts Style 16",
+        "image": "/assets/leather-belts/16.jpg"
+      },
+      {
+        "name": "Leather Belts Style 17",
+        "image": "/assets/leather-belts/17.jpg"
+      },
+      {
+        "name": "Leather Belts Style 18",
+        "image": "/assets/leather-belts/18.jpg"
+      },
+      {
+        "name": "Leather Belts Style 19",
+        "image": "/assets/leather-belts/19.jpg"
+      },
+      {
+        "name": "Leather Belts Style 20",
+        "image": "/assets/leather-belts/20.jpg"
+      },
+      {
+        "name": "Leather Belts Style 21",
+        "image": "/assets/leather-belts/21.jpg"
+      },
+      {
+        "name": "Leather Belts Style 22",
+        "image": "/assets/leather-belts/22.jpg"
+      },
+      {
+        "name": "Leather Belts Style 23",
+        "image": "/assets/leather-belts/23.jpg"
+      },
+      {
+        "name": "Leather Belts Style 24",
+        "image": "/assets/leather-belts/24.jpg"
+      }
+    ]
+  },
+  {
+    "folder": "mens-leather-shoes",
+    "product_name": "mens-leather-shoes",
+    "product_label": "Mens Leather Shoes",
+    "products": [
+      {
+        "name": "Mens Leather Shoes Style 1",
+        "image": "/assets/mens-leather-shoes/1.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 2",
+        "image": "/assets/mens-leather-shoes/2.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 3",
+        "image": "/assets/mens-leather-shoes/3.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 4",
+        "image": "/assets/mens-leather-shoes/4.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 5",
+        "image": "/assets/mens-leather-shoes/5.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 6",
+        "image": "/assets/mens-leather-shoes/6.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 7",
+        "image": "/assets/mens-leather-shoes/7.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 8",
+        "image": "/assets/mens-leather-shoes/8.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 9",
+        "image": "/assets/mens-leather-shoes/9.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 10",
+        "image": "/assets/mens-leather-shoes/10.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 11",
+        "image": "/assets/mens-leather-shoes/11.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 12",
+        "image": "/assets/mens-leather-shoes/12.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 13",
+        "image": "/assets/mens-leather-shoes/13.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 14",
+        "image": "/assets/mens-leather-shoes/14.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 15",
+        "image": "/assets/mens-leather-shoes/15.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 16",
+        "image": "/assets/mens-leather-shoes/16.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 17",
+        "image": "/assets/mens-leather-shoes/17.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 18",
+        "image": "/assets/mens-leather-shoes/18.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 19",
+        "image": "/assets/mens-leather-shoes/19.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 20",
+        "image": "/assets/mens-leather-shoes/20.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 21",
+        "image": "/assets/mens-leather-shoes/21.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 22",
+        "image": "/assets/mens-leather-shoes/22.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 23",
+        "image": "/assets/mens-leather-shoes/23.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 24",
+        "image": "/assets/mens-leather-shoes/24.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 25",
+        "image": "/assets/mens-leather-shoes/25.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 26",
+        "image": "/assets/mens-leather-shoes/26.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 27",
+        "image": "/assets/mens-leather-shoes/27.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 28",
+        "image": "/assets/mens-leather-shoes/28.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 29",
+        "image": "/assets/mens-leather-shoes/29.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 30",
+        "image": "/assets/mens-leather-shoes/30.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 31",
+        "image": "/assets/mens-leather-shoes/31.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 32",
+        "image": "/assets/mens-leather-shoes/32.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 33",
+        "image": "/assets/mens-leather-shoes/33.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 34",
+        "image": "/assets/mens-leather-shoes/34.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 35",
+        "image": "/assets/mens-leather-shoes/35.jpg"
+      },
+      {
+        "name": "Mens Leather Shoes Style 36",
+        "image": "/assets/mens-leather-shoes/36.jpg"
+      }
+    ]
+  },
+  {
+    "folder": "womens-flat-sandals",
+    "product_name": "womens-flat-sandals",
+    "product_label": "Womens Flat Sandals",
+    "products": [
+      {
+        "name": "Womens Flat Sandals Style 1",
+        "image": "/assets/womens-flat-sandals/1.jpg"
+      },
+      {
+        "name": "Womens Flat Sandals Style 2",
+        "image": "/assets/womens-flat-sandals/2.jpg"
+      },
+      {
+        "name": "Womens Flat Sandals Style 3",
+        "image": "/assets/womens-flat-sandals/3.jpg"
+      },
+      {
+        "name": "Womens Flat Sandals Style 4",
+        "image": "/assets/womens-flat-sandals/4.jpg"
+      }
+    ]
+  }
+]
