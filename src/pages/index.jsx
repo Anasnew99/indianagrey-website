@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
-import FeaturedProducts from '../components/FeaturedProducts';
 import CompanyStory from '../components/CompanyStory';
 import ProductsSection from '../components/ProductsSection';
 import AboutSection from '../components/AboutSection';
@@ -20,8 +19,7 @@ const IndexPage = () => {
     setFilter,
     categories,
     productsByCategory,
-    filteredProducts,
-    featuredProducts
+    filteredProducts
   } = useProducts();
 
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -42,7 +40,6 @@ const IndexPage = () => {
 
       <Hero />
 
-      <FeaturedProducts products={featuredProducts} onOpen={setSelectedProduct} />
 
       <CompanyStory />
 

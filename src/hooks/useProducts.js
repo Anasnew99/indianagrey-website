@@ -112,14 +112,7 @@ export function useProducts() {
     return allProducts.filter((p) => p.category === filter);
   }, [allProducts, filter]);
 
-  const featuredProducts = useMemo(() => {
-    const out = [];
-    Object.keys(productsByCategory).forEach((key) => {
-      const list = productsByCategory[key];
-      if (Array.isArray(list) && list.length > 0) out.push(list[0]);
-    });
-    return out.slice(0, 4);
-  }, [productsByCategory]);
+
 
   const categories = useMemo(() => {
     return Object.keys(productsByCategory);
@@ -133,7 +126,6 @@ export function useProducts() {
     categories,
     productsByCategory,
     allProducts,
-    filteredProducts,
-    featuredProducts
+    filteredProducts
   };
 }

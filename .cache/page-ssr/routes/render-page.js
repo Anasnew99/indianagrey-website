@@ -5917,7 +5917,7 @@ const RouteAnnouncerProps={id:`gatsby-announcer`,style:{position:`absolute`,top:
 /***/ 6877:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-exports.components={"component---src-pages-index-jsx":()=>Promise.all(/* import() | component---src-pages-index-jsx */[__webpack_require__.e(492), __webpack_require__.e(279)]).then(__webpack_require__.bind(__webpack_require__, 8307))};
+exports.components={"component---src-pages-index-jsx":()=>Promise.all(/* import() | component---src-pages-index-jsx */[__webpack_require__.e(492), __webpack_require__.e(279)]).then(__webpack_require__.bind(__webpack_require__, 3944))};
 
 /***/ }),
 

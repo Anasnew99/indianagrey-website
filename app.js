@@ -36,7 +36,6 @@ async function loadProductsFromCatalog() {
     console.log('Products loaded from catalog:', products);
     
     // Re-render products after loading
-    renderFeaturedProducts();
     renderAllProducts();
     
   } catch (error) {
@@ -219,7 +218,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // If loading fails, use default products and continue
     loadDefaultProducts();
     initializeNavigation();
-    renderFeaturedProducts();
     renderAllProducts();
     initializeProductFilters();
     initializeContactForm();
@@ -347,46 +345,7 @@ function getAllProducts() {
 }
 
 // Render featured products
-function renderFeaturedProducts() {
-  const container = document.getElementById('featured-products');
-  if (!container) {
-    console.warn('Featured products container not found');
-    return;
-  }
-  
-  // Get one product from each category
-  const featuredProducts = [];
-  Object.keys(products).forEach(category => {
-    if (Array.isArray(products[category]) && products[category].length > 0) {
-      // Take the first product from each category
-      featuredProducts.push(products[category][0]);
-    }
-  });
-  
-  // Limit to 4 products maximum
-  const limitedFeaturedProducts = featuredProducts.slice(0, 4);
-  
-  container.innerHTML = limitedFeaturedProducts.map(product => `
-    <div class="product-card" data-product-id="${product.id}" style="cursor: pointer;">
-      <img src="${product.image}" alt="${product.name}" class="product-image">
-      <div class="product-info">
-        <h3 class="product-name">${product.name}</h3>
-      </div>
-    </div>
-  `).join('');
-  
-  // Add click listeners to product cards
-  container.addEventListener('click', function(e) {
-    const productCard = e.target.closest('.product-card');
-    if (productCard) {
-      const productId = productCard.getAttribute('data-product-id');
-      console.log('Featured product card clicked:', productId);
-      openProductModal(productId);
-    }
-  });
-  
-  console.log('Featured products rendered:', limitedFeaturedProducts.length);
-}
+// Removed: featured products section no longer used
 
 // Render all products
 function renderAllProducts() {
