@@ -9,19 +9,19 @@ const ContactSection = () => {
   }
 
   function onSubmit(e) {
-    e.preventDefault();
     const { name, email, subject, message } = form;
     if (!name || !email || !subject || !message) {
+      e.preventDefault();
       setStatus({ type: 'error', message: 'Please fill in all required fields.' });
       return;
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
+      e.preventDefault();
       setStatus({ type: 'error', message: 'Please enter a valid email address.' });
       return;
     }
-    setStatus({ type: 'success', message: "Thank you for your message! We'll get back to you within 24 hours." });
-    setForm({ name: '', email: '', subject: '', message: '' });
+    setStatus(null);
   }
 
   return (
@@ -56,7 +56,11 @@ const ContactSection = () => {
               <p>info@indianagrey.com</p>
             </div>
           </div>
-          <form className="contact-form" id="contact-form" onSubmit={onSubmit}>
+          <form className="contact-form" id="contact-form" action="https://formsubmit.co/anasnew99@gmail.com" method="POST" onSubmit={onSubmit}>
+            <input type="hidden" name="_subject" value="New message from Indiana Grey website" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style={{ display: 'none' }} tabIndex="-1" autoComplete="off" />
             <div className="form-row">
               <div className="form-group">
                 <label htmlFor="name" className="form-label">Name</label>
