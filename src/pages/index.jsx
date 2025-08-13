@@ -32,8 +32,7 @@ const IndexPage = () => {
       <Helmet>
         <title>Indiana Grey - Manufacturer & Exporter of Premium Leather Goods</title>
         <meta name="description" content="Manufacturer & Exporter of Finished Leather, Shoe, Shoe Upper & Goods since 2010. Premium quality leather products manufactured with modern techniques and traditional quality standards." />
-        {/* Force desktop layout on mobile */}
-        <meta name="viewport" content="width=1280, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
