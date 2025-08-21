@@ -11,6 +11,7 @@ import ProcessSection from '../components/ProcessSection';
 import ContactSection from '../components/ContactSection';
 import ProductModal from '../components/ProductModal';
 import { useProducts } from '../hooks/useProducts';
+import '../style.css';
 
 const IndexPage = () => {
   const {

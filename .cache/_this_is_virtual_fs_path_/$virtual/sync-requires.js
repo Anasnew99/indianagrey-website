@@ -4,6 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---src-pages-index-jsx": preferDefault(require("/workspace/src/pages/index.jsx"))
+  "component---cache-dev-404-page-js": preferDefault(require("C:\\Abdullah\\indianagrey-website\\.cache\\dev-404-page.js")),
+  "component---src-pages-index-jsx": preferDefault(require("C:\\Abdullah\\indianagrey-website\\src\\pages\\index.jsx"))
 }
 
